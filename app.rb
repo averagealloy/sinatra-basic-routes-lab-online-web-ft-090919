@@ -2,10 +2,11 @@ require_relative 'config/environment'
 
 class App < Sinatra::Base
 
-  
+
 
   get '/name' do
     "My Name is Mike"
+    erb: "http://142.93.113.210:54840/name"
 
   end
 
