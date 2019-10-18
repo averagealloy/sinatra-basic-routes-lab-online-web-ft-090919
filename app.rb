@@ -3,12 +3,12 @@ require_relative 'config/environment'
 class App < Sinatra::Base
   get '/name' do
     "My Name is Mike"
-    erb :'name/index.html.erb'
+    erb :name/index
   end
 
 get '/hometown' do
   "My Hometown is RVC"
-  
+
 end
 
 get "/favorite-song" do
