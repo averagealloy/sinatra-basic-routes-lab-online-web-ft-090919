@@ -9,7 +9,7 @@ get '/hometown' do
   "My Hometown is RVC"
 end
 
-get "/favorite-song" do 
+get "/favorite-song" do
   "My Favorite song is The Kill by Napalm death"
 
 end
