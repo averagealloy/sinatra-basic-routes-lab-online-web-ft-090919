@@ -33,6 +33,7 @@ describe "Basic Routes Lab" do
   describe "GET '/favorite-song'" do
     before(:each) do
       get '/favorite-song'
+      erb:
     end
 
     it "returns a 200 status code" do
