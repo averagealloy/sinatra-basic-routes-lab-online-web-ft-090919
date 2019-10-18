@@ -5,12 +5,11 @@ class App < Sinatra::Base
 
   get '/name' do
     "My Name is Mike"
-    erb: /name
+    
   end
 
   get "/hometown" do
   "My Hometown is RVC"
-
 end
 
   get "/favorite-song" do
